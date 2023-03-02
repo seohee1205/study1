@@ -22,7 +22,7 @@ x_train, x_test, y_train, y_test = train_test_split(
 print(x_train)
 print(x_test)
 
-'''
+
 #2. 모델구성
 model = Sequential()
 model.add(Dense(10, input_dim = 1))
@@ -47,4 +47,4 @@ print('[11]의 예측값 : ', result)
 # 1/1 [==============================] - 0s 103ms/step - loss: 0.0018
 # loss :  0.001771476469002664
 # 1/1 [==============================] - 0s 68ms/step
-'''
+
